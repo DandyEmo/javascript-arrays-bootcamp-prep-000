@@ -38,11 +38,6 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array.slice(1)
 }
-  
-function destructivelyAddElementToBeginningOfArray(array, elemen) {
- array.pop()
- return array
-}
 
 
 
