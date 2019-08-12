@@ -39,7 +39,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array.slice(1)
 }
   
-function destructivelyAddElementToBeginningOfArray(array) {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   return array.unshift(array)
 }
 
